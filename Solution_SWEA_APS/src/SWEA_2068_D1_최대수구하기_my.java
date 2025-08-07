@@ -16,4 +16,6 @@ public class SWEA_2068_D1_최대수구하기_my {
 			System.out.println("#" + (i + 1) + " " + max);
 		}
 	}
+	
+	
 }
