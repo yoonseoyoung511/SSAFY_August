@@ -21,7 +21,6 @@ public class Stack09_피보나치 {
 		}
 		System.out.println("2의 6승 : " + mul);
 		System.out.println("2의 6승 : " + power(2, 6));
-		
 	}
 
 	//base의 ex 승 값을 리턴하는 거듭제곱 함수
@@ -31,14 +30,12 @@ public class Stack09_피보나치 {
 		} else {
 			return base * power(base, ex -1);
 		}
-		
-		
+	}
 //		int res = 1; 
 //		for (int i = 0; i < ex; i++) {
 //			res *= base;
 //		}
 //		return res;
-	}
 	
 	//n 구하려면 n-1, n-2가 필요해
 	public static int fibo(int n) {

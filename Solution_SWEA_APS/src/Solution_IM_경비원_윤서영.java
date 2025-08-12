@@ -28,22 +28,24 @@ public class Solution_IM_경비원_윤서영 {
 				}
 			}
 			//감시원 상하좌우 검사
-			int left = 0;
-			int right = 0;
-			int up = 0;
-			int down = 0;
-			int sum = 0;
+//			int left = 0;
+//			int right = 0;
+//			int up = 0;
+//			int down = 0;
+//			int sum = 0;
 			int[] dy = {1,-1,0,0};
 			int[] dx = {0,0,1,-1};
 			int x,y;
 			x = 1;
-			y = 2; = 3;
+			y = 2;
 			for(int i=0;i<4;i++)
 			{
 				int nextX = x+dx[i];
 				int nextY = y+dy[i];
 
 			}
+			
+			
 			for (int i = 0; i < n-R; i++) {
 				for (int j = 0; j < n-C; j++) {
 					//좌
